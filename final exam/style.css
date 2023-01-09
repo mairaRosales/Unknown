@@ -2,7 +2,8 @@ body{
     margin: 0;
     font-family: 'Franklin Gothic', sans-serif;
     letter-spacing: 3px;
-    background-color: grey;
+    background: rgb(35,36,38);
+    background: linear-gradient(0deg, rgba(35,36,38,1) 0%, rgba(237,11,14,1) 50%, rgba(35,36,38,1) 100%);
 }
 .nav ul{
 	list-style-type:none;
