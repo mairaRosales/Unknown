@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unknown</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="nav">
+		<ul>
+            <li><img src="unknown.png" height="60px"></li>
+			<li id="title"><a href="#"><strong>UNKNOWN</strong></a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+			<li><a href="#home">HOME</a></li>
+		</ul>
+	</div>
+    <div class="body">
+        <div id="textbod">
+            <h1>Welcome to the <strong>Unknown</strong></h1>
+            <p>The place to find all the information about the known <b>Unknown Phenomena </b> around the world.</p>
+        </div>
+
+        <div id="images">
+            <img class="mySlides"  
+            src="https://a3.cdn.japantravel.com/photo/61021-208733/1000/mysterious-places-and-things-in-japan-208733.jpg" alt="File not Supported" 
+            >
+            
+            <img class="mySlides" src="https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2014/12/03/1331693292520_5/mysterious-places-underwater-sculpture-park" 
+            >
+            
+            <img class="mySlides" src="https://its-poland.com/files/services_photos/90bda39112ed8703a52581233c1a0c90.jpg">
+            
+            <img class="mySlides" src="https://www.rd.com/wp-content/uploads/2020/05/GettyImages-620497234-e1590504359291.jpg?fit=700,467">
+
+            <script>
+                var slideIndex = 0;
+                carousel();
+                
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex > x.length) {slideIndex = 1} 
+                x[slideIndex-1].style.display = "block"; 
+                setTimeout(carousel, 5000); 
+                }
+            </script>
+        </div>
+    </div>
+
+    <div id="home">
+        <h1><strong>The Mysteries Untold</strong></h1>
+        <div class="content">
+            <img src="https://a3.cdn.japantravel.com/photo/61021-208733/1000/mysterious-places-and-things-in-japan-208733.jpg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptas nisi culpa reiciendis iusto error cum repellendus ipsum quis ratione expedita repellat aliquam ab consequatur, odio dolor rem dolores quo.</p>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, praesentium? A labore unde dicta nisi non pariatur tempore necessitatibus! Hic porro quas saepe quia voluptatem nihil maxime voluptates et animi!</p>
+            <img src="https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2014/12/03/1331693292520_5/mysterious-places-underwater-sculpture-park" >
+        </div>
+        <div class="content">
+            <img src="https://its-poland.com/files/services_photos/90bda39112ed8703a52581233c1a0c90.jpg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptas nisi culpa reiciendis iusto error cum repellendus ipsum quis ratione expedita repellat aliquam ab consequatur, odio dolor rem dolores quo.</p>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, praesentium? A labore unde dicta nisi non pariatur tempore necessitatibus! Hic porro quas saepe quia voluptatem nihil maxime voluptates et animi!</p>
+            <img src="https://www.rd.com/wp-content/uploads/2020/05/GettyImages-620497234-e1590504359291.jpg?fit=700,467">
+        </div>
+
+        <h3><strong>For More Mysteries Please Click Here</strong></h3>
+    </div>
+
+    <div id="contact">
+        <p>Any more Unknown Phenomena you know about? <strong>Please contact us</strong> at <em>unknown@mysteries.com</em> </p>
+    </div>
+
+    <div id="about">
+        <p>Unknown is a website created to cater to your thirst for knowledge about the Unknown. Mysteries and Questions have plagued most of our history, we strive to answer those theories with certified facts and research.</p>
+    </div>
+
+</body>
+</html>
