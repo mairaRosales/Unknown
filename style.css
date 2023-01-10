@@ -138,6 +138,7 @@ strong {
     padding: 10px;
     box-shadow: 1px 2px 2px #e9dfddbb;
     border-radius: 5px;
+    font-family: 'Righteous', cursive;
 }
 
 .content {
@@ -188,7 +189,7 @@ strong {
     margin-top: 30px;
 }
 
-.cont-h img {
+.cont-h img{
     height: 70px;
     width: 70px;
     display: block;
@@ -196,7 +197,7 @@ strong {
     margin-right: auto;
 }
 
-#about {
+#about{
     background-color: #232426;
     color: #dee1e3;
     display: flex;
