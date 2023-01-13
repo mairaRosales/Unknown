@@ -179,21 +179,11 @@ strong {
     padding: 40px 150px;
 }
 
-.cont-h {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 40px;
-    padding: 0px 70px;
-    text-align: center;
-    margin-top: 30px;
-}
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-.cont-h img {
-    height: 70px;
-    width: 70px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #about {
