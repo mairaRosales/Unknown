@@ -141,6 +141,11 @@ strong {
     font-family: 'Righteous', cursive;
 }
 
+.child-2 h1 {
+    font-size: 5rem;
+    margin: 10px;
+}
+
 .content {
     display: flex;
     flex: 1;
@@ -169,22 +174,27 @@ strong {
 #contact {
     color: #232426;
     background-color: #dee1e3;
-    padding: 40px 150px;
     opacity: 0.9;
+    padding: 30px;
     border-radius: 10px;
     margin: 150px 15px;
     height: 60vh;
 }
 
-.contact-title {
-    padding: 40px 150px;
+#contact h2 {
+    font-size: 5rem;
+    margin: 10px;
 }
 
 .parent {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
 
+.parent > .child {
+    padding: 10px;
+    flex: 30%;
 }
 
 #about{
